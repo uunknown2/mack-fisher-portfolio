@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+tmp/
+resume_qa/
+~$*
+
+# Local source documents, original photos, and review output
+/Dj stand/
+/OneDrive_2_9-21-2026/
+/old resumes/
+/assets/
+/output/
+/*.docx
+*.tsbuildinfo
+/vite.config.js
+/vite.config.d.ts
+.env
+.env.*
+!.env.example
+.wrangler/
+
+# Unused photo variants retained locally
+/public/images/cb550-before.webp
+/public/images/dj-materials.webp
+/public/images/dj-panel.webp
+/public/images/mack-cb550-portrait.webp
+/public/images/mack-cb550-portrait-plate-blurred.png
+/public/images/mack-cb550-portrait-plate-blurred-deterministic.png
