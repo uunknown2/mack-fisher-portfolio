@@ -31,14 +31,18 @@ const projects: Project[] = [
     ],
   },
   {
-    id: 'motorsports', title: 'Titanium suspension endplate', context: 'Nittany Motorsports · October–November 2025',
-    summary: 'I used Fusion 360 Generative Design to reduce the weight of a titanium suspension endplate for the chassis and suspension team.',
-    outcome: 'Reduced suspension endplate weight using Fusion 360 Generative Design.',
+    id: 'impala', title: '1964 Impala engine swap', context: 'Client project · April–August 2025',
+    summary: 'I completed a Chevy 350 engine swap for a client, managing component transfer, commissioning, parts sourcing, and progress updates.',
+    outcome: 'Delivered a running vehicle within the five-month schedule and budget.',
     details: [
-      ['Design contribution', 'Applied generative design to improve strength-to-weight performance. The photographed endplates show the design variations.'],
-      ['Related validation work', 'Designed a tubular-chassis torsional-rigidity test fixture in CAD and began developing its loading and measurement procedure.'],
+      ['Installation & commissioning', 'Transferred the intake manifold and accessory drives. Tuned the carburetor and ignition timing, repaired wiring, and diagnosed fuel-system issues.'],
+      ['Diagnostics & handoff', 'Used a multimeter, fuel-pressure gauge, and timing light. Identified incorrect fuel-pump placement and recommended professional relocation.'],
     ],
-    photos: [{ src: 'nms-endplates.webp', alt: 'Four suspension endplate variations on a workbench', caption: 'Suspension endplate design variations.' }],
+    photos: [
+      { src: 'impala-engine-out.webp', alt: 'Impala with the engine removed in the shop', caption: 'Engine removal and preparation.' },
+      { src: 'impala-install.webp', alt: 'Replacement Chevy 350 in the Impala engine bay', caption: 'Replacement engine installed.' },
+      { src: 'impala-finished.webp', alt: 'Assembled Chevy 350 engine installation', caption: 'Assembled powertrain.' },
+    ],
   },
   {
     id: 'feeder', title: 'Arduino dog feeder', context: 'Independent project · January–February 2024',
@@ -54,20 +58,6 @@ const projects: Project[] = [
     ],
   },
   {
-    id: 'impala', title: '1964 Impala engine swap', context: 'Client project · April–August 2025',
-    summary: 'I completed a Chevy 350 engine swap for a client, managing component transfer, commissioning, parts sourcing, and progress updates.',
-    outcome: 'Delivered a running vehicle within the five-month schedule and budget.',
-    details: [
-      ['Installation & commissioning', 'Transferred the intake manifold and accessory drives. Tuned the carburetor and ignition timing, repaired wiring, and diagnosed fuel-system issues.'],
-      ['Diagnostics & handoff', 'Used a multimeter, fuel-pressure gauge, and timing light. Identified incorrect fuel-pump placement and recommended professional relocation.'],
-    ],
-    photos: [
-      { src: 'impala-engine-out.webp', alt: 'Impala with the engine removed in the shop', caption: 'Engine removal and preparation.' },
-      { src: 'impala-install.webp', alt: 'Replacement Chevy 350 in the Impala engine bay', caption: 'Replacement engine installed.' },
-      { src: 'impala-finished.webp', alt: 'Assembled Chevy 350 engine installation', caption: 'Assembled powertrain.' },
-    ],
-  },
-  {
     id: 'dj-stand', title: 'Modular DJ stand', context: 'Sigma Pi · Independent project · August 2026',
     summary: 'I designed, sourced, and fabricated a custom DJ stand in four days, using detachable sections to simplify transport and repeated assembly.',
     outcome: 'Six sections assemble in about two minutes. The stand remains in use approximately three times per week.',
@@ -80,6 +70,16 @@ const projects: Project[] = [
       { src: 'dj-cnc.webp', alt: 'Mack beside the CNC router during fabrication', caption: 'Panel fabrication at the CNC router.' },
       { src: 'dj-construction.webp', alt: 'Mack seated on the assembled DJ stand with its timber frame, legs, and plywood platforms exposed', caption: 'Assembled timber frame and platforms before the front panels were fitted.' },
     ],
+  },
+  {
+    id: 'motorsports', title: 'Titanium suspension endplate', context: 'Nittany Motorsports · October–November 2025',
+    summary: 'I used Fusion 360 Generative Design to reduce the weight of a titanium suspension endplate for the chassis and suspension team.',
+    outcome: 'Reduced suspension endplate weight using Fusion 360 Generative Design.',
+    details: [
+      ['Design contribution', 'Applied generative design to improve strength-to-weight performance. The photographed endplates show the design variations.'],
+      ['Related validation work', 'Designed a tubular-chassis torsional-rigidity test fixture in CAD and began developing its loading and measurement procedure.'],
+    ],
+    photos: [{ src: 'nms-endplates.webp', alt: 'Four suspension endplate variations on a workbench', caption: 'Suspension endplate design variations.' }],
   },
 ]
 
